@@ -5,7 +5,7 @@ import {
     Route,
 } from "react-router-dom"
 
-function Routes() {
+export default function Routes() {
     <Router>
         <Switch>
             <Route path={'/'} element={<Login/>}/>
@@ -13,4 +13,3 @@ function Routes() {
     </Router>
 }
 
-export default Routes
